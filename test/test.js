@@ -1,6 +1,6 @@
 'use strict'
 
-const validate = require('../src/index.js')
+const jsau = require('../src/index.js')
 
 let news = {title: 'News', category: 'Politique', body: 'Blabla.'}
-console.log(validate(news))
+console.log(jsau.validate(news))
