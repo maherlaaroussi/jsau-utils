@@ -1,7 +1,5 @@
 'use strict'
 
-// TODO: Analyse news and categorie
-
 const categories = [
     'Sciences',
     'Monde',
@@ -25,5 +23,6 @@ module.exports = {
             }
         }
         return false
-    }
+    },
+    categories
 }
